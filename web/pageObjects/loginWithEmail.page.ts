@@ -36,6 +36,7 @@ export async function getInvalidCredentialsErrorMessage(): Promise<string> {
 
 export async function getEmailValidationErrorMessage(): Promise<string> {
     return await defaultPage.getElementTextByLocator(emailValidationMessage)
+    
 }
 
 export async function getPasswordValidationErrorMessage(): Promise<string> {
