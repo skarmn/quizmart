@@ -7,7 +7,7 @@ import * as credentials from "../util/incorrectCredentials"
 const mainUrl = ''
 const signInUrl = 'sign-in/'
 
-describe('My Login application', () => {
+/*describe('My Login application', () => {
 
     it('should open sign in with email page', async () => {
         DefaultPage.openUrl(mainUrl);
@@ -86,4 +86,4 @@ describe('My Login application', () => {
         
     })
     
-});
+});*/
